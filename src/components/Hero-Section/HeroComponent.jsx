@@ -4,14 +4,14 @@ import HeaderNav from "./HeaderNav";
 
 export default function HeroComponent() {
   return (
-    <div class="bg-black h-[1590px] text-white">
+    <div className="bg-black h-[1590px] text-white">
       <HeaderNav />
       <img
         src={heroImage}
         alt="bg-img here"
-        class="h-[900px] w-full object-fill"
+        className="h-[900px] w-full object-fill"
       ></img>
-      <div class="fixed top-0 left-0 w-full h-full bg-black/50 "></div>
+      <div className="fixed top-0 left-0 w-full h-full bg-black/50 "></div>
     </div>
   );
 }
