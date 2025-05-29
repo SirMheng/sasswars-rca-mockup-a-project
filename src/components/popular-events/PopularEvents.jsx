@@ -1,8 +1,7 @@
 import React from "react";
-// import EventsCard from "../Popular-Events/EventsCard.jsx";
-import Background from "../../assets/images/EventBackground.png";
-import EventsCard from "../Popular-Events/EventsCard.jsx";
-import EventsCardNav from "../Popular-Events/EventsCardNav.jsx";
+import Background from "../../assets/images/BackgroundImage.png";
+import EventsCard from "../popular-events/EventsCard.jsx";
+import EventsCardNav from "../popular-events/EventsCardNav.jsx";
 
 const PopularEvents = () => {
   return (
