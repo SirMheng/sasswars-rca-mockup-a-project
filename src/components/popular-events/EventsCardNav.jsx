@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const EventsCardNav = () => {
   return (
-    <div className="absolute top-0 left-0 px-[120px] mt-[77px] h-[88px] w-full flex justify-between items-center z-20">
+    <div className="absolute px-[120px] mt-[77px] h-[88px] w-full flex justify-between items-center z-20">
       <h1 className="font-bold text-[24px] leading-[24px] tracking-[0px] font-open-sans text-white">
         Popular events
       </h1>

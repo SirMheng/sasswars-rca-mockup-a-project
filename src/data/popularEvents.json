@@ -5,28 +5,28 @@
       "location": "San Francisco, CA",
       "price": "$50",
       "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/images/book-of-mormon.jpg"
+      "imageUrl": "/assets/images/book-of-mormon.png"
     },
     {
       "title": "Hamilton",
       "location": "New York City, NY",
       "price": "$50",
       "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/images/hamilton.jpg"
+      "imageUrl": "/assets/images/hamilton.png"
     },
     {
       "title": "SF Symphony Sound Box",
       "location": "San Francisco, CA",
       "price": "$50",
       "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/images/sf-symphony.jpg"
+      "imageUrl": "/assets/images/sf-soundbox.png"
     },
     {
       "title": "Moulin Rouge",
       "location": "New York City, NY",
       "price": "$50",
       "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/images/moulin-rouge.jpg"
+      "imageUrl": "/assets/images/moulin-rogue.png"
     }
   ]
 }
