@@ -1,11 +1,13 @@
 import React from "react";
 import heroImage from "../../assets/images/hero-image.jpg";
 import HeaderNav from "./HeaderNav";
+import HeroContent from "./HeroContent";
 
 export default function HeroComponent() {
   return (
     <div class="bg-black h-[1590px] text-white">
       <HeaderNav />
+      <HeroContent />
       <img
         src={heroImage}
         alt="bg-img here"
