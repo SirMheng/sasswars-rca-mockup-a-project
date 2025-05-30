@@ -20,24 +20,31 @@ function NavbarDetails() {
   ];
 
   return (
-    <div className="absolute top-full right-0 mt-2 w-80 bg-zinc-900 rounded-lg shadow-lg z-50 p-4">
-      <h2 className="text-white text-lg font-semibold">Create your account!</h2>
-      <p className="text-gray-400 text-sm mb-4">
-        Get personalized event recommendations tailored just for you!
-      </p>
+    <div className="absolute top-full right-0 mt-2 w-[365px] h-[485px] bg-[#1E1F22] rounded-lg shadow-lg z-50 ">
+      <div className="pt-6 px-6 border-b-1 border-b-[rgb(16,16,16)]">
+        <h2 className="text-white text-lg font-semibold">
+          Create your account!
+        </h2>
+        <p className="text-gray-400 text-sm mb-4">
+          Get personalized event recommendations tailored just for you!
+        </p>
 
-      <div className="flex gap-2 mb-6">
-        <button className="flex-1 bg-gradient-to-r from-pink-500 to-fuchsia-600 text-white py-2 rounded-full font-semibold">
-          Sign up
-        </button>
-        <button className="flex-1 bg-black text-white border border-zinc-700 py-2 rounded-full font-semibold">
-          Log in
-        </button>
+        <div className="flex gap-2 mb-4">
+          <button className="flex-1 bg-gradient-to-r from-pink-500 to-fuchsia-600 text-white py-2 rounded-full font-semibold">
+            Sign up
+          </button>
+          <button className="flex-1 bg-black text-white  py-2 rounded-full font-semibold">
+            Log in
+          </button>
+        </div>
       </div>
 
-      <ul className="space-y-4 text-white">
+      <ul className="">
         {menuItems.map((item, index) => (
-          <li key={index} className="flex items-center gap-3">
+          <li
+            key={index}
+            className="flex items-center h-[45px] gap-5 w-[365px] mt-4 border-b-1 last:border-b-0  border-b-[rgb(16,16,16)] px-6"
+          >
             {item.icon}
             <span>{item.title}</span>
           </li>
