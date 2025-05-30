@@ -1,52 +1,32 @@
 {
   "events": [
     {
-      "id": 1,
       "title": "The Book of Mormon",
       "location": "San Francisco, CA",
-      "dates": "5/04/2021 - 10/10/2021",
       "price": "$50",
-      "priceLabel": "Start from",
-      "image": "/api/placeholder/300/200",
-      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day...",
-      "tags": ["Theater", "Musical"],
-      "bgColor": "bg-gray-200"
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/images/book-of-mormon.jpg"
     },
     {
-      "id": 2,
       "title": "Hamilton",
       "location": "New York City, NY",
-      "dates": "5/04/2021 - 10/10/2021",
       "price": "$50",
-      "priceLabel": "Start from",
-      "image": "/api/placeholder/300/200",
-      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day...",
-      "tags": ["Theater", "Musical"],
-      "bgColor": "bg-yellow-500"
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/images/hamilton.jpg"
     },
     {
-      "id": 3,
       "title": "SF Symphony Sound Box",
       "location": "San Francisco, CA",
-      "dates": "5/04/2021 - 10/10/2021",
       "price": "$50",
-      "priceLabel": "Avg. price",
-      "image": "/api/placeholder/300/200",
-      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day...",
-      "tags": ["Theater", "Musical"],
-      "bgColor": "bg-blue-600"
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/images/sf-symphony.jpg"
     },
     {
-      "id": 4,
       "title": "Moulin Rouge",
       "location": "New York City, NY",
-      "dates": "5/04/2021 - 10/10/2021",
       "price": "$50",
-      "priceLabel": "Avg. price",
-      "image": "/api/placeholder/300/200",
-      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day...",
-      "tags": ["Theater", "Musical"],
-      "bgColor": "bg-red-600"
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/images/moulin-rouge.jpg"
     }
   ]
 }
