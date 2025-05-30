@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import rcaLogo from "../../assets/images/company-logo.png";
 import { LuUserRound } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
-import NavbarDetails from "./NavbarDetails";
+import NavbarDetails from "./HeroNavbarDetails";
 
 export default function HeaderNav() {
   const [menuOpen, setMenuOpen] = useState(false);
