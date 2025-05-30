@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import rcaLogo from "../../assets/images/company-logo.png";
 import { LuUserRound } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
-import NavbarDetails from "./HeroNavbarDetails";
+import HeroNavbarDetails from "./HeroNavbarDetails";
 
 export default function HeaderNav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +36,7 @@ export default function HeaderNav() {
           className="ml-[32px] bg-[#1E1F22] h-[40px] w-[80px] rounded-[100px] relative flex justify-center items-center px-[4px] gap-[10.25px] "
         >
           <RxHamburgerMenu className="h-[32px] w-[20px] ml-[8.25px]" />
-          {menuOpen && <NavbarDetails />}
+          {menuOpen && <HeroNavbarDetails />}
 
           <div className="bg-[#101010] h-[32px] w-[32px] rounded-[100px] flex items-center justify-center ">
             <LuUserRound />

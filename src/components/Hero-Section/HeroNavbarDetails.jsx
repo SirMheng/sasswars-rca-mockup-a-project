@@ -4,7 +4,7 @@ import { FaRegHeart, FaRegStar } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { BiMoviePlay } from "react-icons/bi";
 
-function NavbarDetails() {
+function HeroNavbarDetails() {
   const menuItems = [
     {
       title: "Search Events",
@@ -54,4 +54,4 @@ function NavbarDetails() {
   );
 }
 
-export default NavbarDetails;
+export default HeroNavbarDetails;
