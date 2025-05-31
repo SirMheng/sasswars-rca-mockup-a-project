@@ -1,32 +1,38 @@
-{
-  "events": [
-    {
-      "title": "The Book of Mormon",
-      "location": "San Francisco, CA",
-      "price": "$50",
-      "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/assets/images/book-of-mormon.png"
-    },
-    {
-      "title": "Hamilton",
-      "location": "New York City, NY",
-      "price": "$50",
-      "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/assets/images/hamilton.png"
-    },
-    {
-      "title": "SF Symphony Sound Box",
-      "location": "San Francisco, CA",
-      "price": "$50",
-      "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/assets/images/sf-soundbox.png"
-    },
-    {
-      "title": "Moulin Rouge",
-      "location": "New York City, NY",
-      "price": "$50",
-      "dateRange": "5/04/2021 - 10/10/2021",
-      "imageUrl": "/assets/images/moulin-rogue.png"
-    }
-  ]
-}
+[
+  {
+    "title": "The Book of Mormon",
+    "location": "San Francisco, CA",
+    "price": "$50",
+    "dateRange": "5/04/2021 - 10/10/2021",
+    "imageUrl": "/src/assets/images/book-of-mormon.png",
+    "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+    "tags": ["Theater", "Musical"]
+  },
+  {
+    "title": "Hamilton",
+    "location": "New York City, NY",
+    "price": "$50",
+    "dateRange": "5/04/2021 - 10/10/2021",
+    "imageUrl": "/src/assets/images/hamilton.png",
+    "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+    "tags": ["Theater", "Musical"]
+  },
+  {
+    "title": "SF Symphony Sound Box",
+    "location": "San Francisco, CA",
+    "price": "$50",
+    "dateRange": "5/04/2021 - 10/10/2021",
+    "imageUrl": "/src/assets/images/sf-soundbox.png",
+    "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+    "tags": ["Classical", "Music"]
+  },
+  {
+    "title": "Moulin Rouge",
+    "location": "New York City, NY",
+    "price": "$50",
+    "dateRange": "5/04/2021 - 10/10/2021",
+    "imageUrl": "/src/assets/images/moulin-rouge.png",
+    "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+    "tags": ["Theater", "Musical"]
+  }
+]
