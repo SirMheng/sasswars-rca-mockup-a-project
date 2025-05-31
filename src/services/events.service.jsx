@@ -4,6 +4,6 @@ export const getCities = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(citiesJson);
-    }, 1500);
+    }, 3000);
   });
 };
