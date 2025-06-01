@@ -8,10 +8,16 @@ export default function LatestNewsNav() {
         Latest News
       </h1>
       <div className="flex gap-2 ">
-        <button className="w-[48px] h-[48px] rounded-full bg-[#1E1F22] flex items-center justify-center ">
+        <button
+          className="w-[48px] h-[48px] rounded-full bg-[#1E1F22] flex items-center justify-center filter hover:border-white hover:border-1 hover:brightness-200 hover:cursor-pointer
+      transition-[filter] duration-100"
+        >
           <FaChevronLeft className="text-white text-xl" />
         </button>
-        <button className="w-[48px] h-[48px] rounded-full bg-[#1E1F22] flex items-center justify-center">
+        <button
+          className="w-[48px] h-[48px] rounded-full bg-[#1E1F22] flex items-center justify-center filter hover:border-white hover:border-1 hover:brightness-200 hover:cursor-pointer
+      transition-[filter] duration-100"
+        >
           <FaChevronRight className="text-white text-xl" />
         </button>
       </div>

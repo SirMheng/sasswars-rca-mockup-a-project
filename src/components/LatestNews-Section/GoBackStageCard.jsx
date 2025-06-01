@@ -13,7 +13,7 @@ export default function GoBackStageCard() {
           Experience VIP backstage access to digital events around the world.
           Watch our latest episode!
         </p>
-        <button className="w-[167.5px] h-[48px] mt-[32px] rounded-[100px] bg-gradient-to-r from-[#c22026] to-[#c400cb] filter hover:brightness-110 transition-[filter] hover:cursor-pointer duration-200">
+        <button className="w-[167.5px] h-[48px] mt-[32px] rounded-[100px] bg-gradient-to-r from-[#c22026] to-[#c400cb] filter hover:brightness-200 transition-[filter] hover:cursor-pointer duration-200">
           Watch
         </button>
       </section>
