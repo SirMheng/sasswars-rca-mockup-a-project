@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 export default function LatestNewsNav() {
   return (
-    <div className="h-[48px] flex justify-between border-1 border-yellow-500">
+    <div className="h-[48px] flex justify-between ">
       <h1 className="text-white self-center h-[33px] w-[144px] font-bold text-[24px]">
         Latest News
       </h1>

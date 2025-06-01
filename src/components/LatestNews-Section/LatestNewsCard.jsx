@@ -4,7 +4,7 @@ import LatestNewsCardList from "./LatestNewsCardList";
 
 export default function LatestNewsCard() {
   return (
-    <div className="w-[1200px] h-[354px] mt-[48px] border-2 border-red-500 mx-auto">
+    <div className="w-[1200px] h-[354px] mt-[48px] mx-auto">
       <LatestNewsNav />
       <LatestNewsCardList />
     </div>
