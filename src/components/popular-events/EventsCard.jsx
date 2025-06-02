@@ -1,30 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaHeart } from "react-icons/fa";
 import eventsData from "../../data/popularEvents.json";
-import bookOfMormon from "../../assets/images/book-of-mormon.png";
-import hamilton from "../../assets/images/hamilton.png";
-import sfSoundbox from "../../assets/images/sf-soundbox.png";
-import moulinRouge from "../../assets/images/moulin-rouge.png";
-
-const imageMap = {
-  "/src/assets/images/book-of-mormon.png": bookOfMormon,
-  "/src/assets/images/hamilton.png": hamilton,
-  "/src/assets/images/sf-soundbox.png": sfSoundbox,
-  "/src/assets/images/moulin-rouge.png": moulinRouge,
-};
 
 const EventCard = () => {
-  const [events] = useState(eventsData);
-  const [likedEvents, setLikedEvents] = useState({});
+  const [events, setEvents] = useState(
+    eventsData.map((event) => ({
+      ...event,
+      isLiked: false,
+      image: null,
+    }))
+  );
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const updatedEvents = await Promise.all(
+        events.map(async (event) => {
+          const imageModule = await import(
+            `../../assets/images/${event.imageUrl.split("/").pop()}`
+          );
+          return {
+            ...event,
+            image: imageModule.default,
+          };
+        })
+      );
+      setEvents(updatedEvents);
+    };
+
+    loadImages();
+  }, []);
 
   const handleLike = (eventId) => {
-    setLikedEvents((prev) => ({
-      ...prev,
-      [eventId]: !prev[eventId],
-    }));
+    setEvents((prevEvents) =>
+      prevEvents.map((event, index) =>
+        index === eventId ? { ...event, isLiked: !event.isLiked } : event
+      )
+    );
   };
 
-  // Generate 6 dots for the carousel indicator
   const dots = Array(6).fill(null);
 
   return (
@@ -35,7 +48,7 @@ const EventCard = () => {
             <div className="h-[450px] w-[282px] bg-black rounded-t-[10px] rounded-b-[10px]">
               <div className="w-[282px] h-[207px] rounded-t-[10px] overflow-hidden relative">
                 <img
-                  src={imageMap[event.imageUrl]}
+                  src={event.image}
                   alt={event.title}
                   className="object-cover w-full h-full"
                 />
@@ -46,14 +59,13 @@ const EventCard = () => {
                   <FaHeart
                     className="text-2xl transition-colors duration-200"
                     style={{
-                      color: likedEvents[index] ? "#C22026" : "white",
+                      color: event.isLiked ? "#C22026" : "white",
                       WebkitTextStroke: "2px white",
-                      opacity: likedEvents[index] ? 1 : 0.7,
+                      opacity: event.isLiked ? 1 : 0.7,
                     }}
                   />
                 </div>
 
-                {/* Carousel Dots */}
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                   {dots.map((_, dotIndex) => (
                     <div
@@ -87,7 +99,6 @@ const EventCard = () => {
                   <p>{event.description}</p>
                 </div>
 
-                {/* Tags */}
                 <div className="flex gap-2 mt-3 mb-4">
                   {event.tags &&
                     event.tags.map((tag, tagIndex) => (
