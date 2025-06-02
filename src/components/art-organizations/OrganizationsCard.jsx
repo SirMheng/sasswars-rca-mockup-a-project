@@ -82,14 +82,6 @@ const OrganizationsCard = () => {
                   <div className="text-white">
                     <b>{event.title}</b>
                   </div>
-                  <div className="flex flex-col items-end text-white">
-                    <div className="font-bold text-lg mr-[10px]">
-                      {event.price}
-                    </div>
-                    <div className="absolute mt-[30px] mb-[151px] text-xs opacity-80">
-                      Start from
-                    </div>
-                  </div>
                 </div>
                 <div className="text-white mb-[12px]">{event.location}</div>
                 <div className="text-white">
