@@ -1,10 +1,12 @@
 import React from "react";
 import OrganizationCardNav from "./OrganizationCardNav";
+import OrganizationsCard from "./OrganizationsCard";
 
 const ArtOrganizations = () => {
   return (
-    <div className="h-[652px] w-full bg-black">
+    <div className="h-[682px] w-full bg-black">
       <OrganizationCardNav />
+      <OrganizationsCard />
     </div>
   );
 };
