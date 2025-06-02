@@ -1,7 +1,7 @@
 import React from "react";
 
 const OrganizationsCard = () => {
-  return <div>OrganizationsCard</div>;
+  return <div></div>;
 };
 
 export default OrganizationsCard;
