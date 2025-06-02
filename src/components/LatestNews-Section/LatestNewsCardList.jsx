@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import { Skeleton } from "@mui/material";
-
 import LatestNewsArticle from "./LatestNewsArticle";
 import { getlatestNews } from "../../services/events.service";
-import Cards from "../Reusable-Component/Cards";
+import CardsLoader from "../Reusable-Components/CardsLoader";
 
 export default function LatestNewsCardList() {
   const [news, setNews] = useState([]);
@@ -18,7 +16,9 @@ export default function LatestNewsCardList() {
   return (
     <div className="h-[282px] mt-[24px] flex justify-between">
       {loading
-        ? Array.from({ length: 2 }).map((_, idx) => <Cards idx={idx} />)
+        ? Array.from({ length: 2 }).map((_, idx) => (
+            <CardsLoader key={idx} idx={idx} />
+          ))
         : news.map((news, index) => (
             <LatestNewsArticle
               key={index}
