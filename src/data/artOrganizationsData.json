@@ -1,6 +1,6 @@
 [
   {
-    "title": "The Book of Mormon",
+    "title": "San Francisco Symphony",
     "location": "San Francisco, CA",
     "price": "$50",
     "dateRange": "5/04/2021 - 10/10/2021",
@@ -9,7 +9,7 @@
     "tags": ["Theater", "Musical"]
   },
   {
-    "title": "Hamilton",
+    "title": "NYC Ballet",
     "location": "New York City, NY",
     "price": "$50",
     "dateRange": "5/04/2021 - 10/10/2021",
@@ -18,7 +18,7 @@
     "tags": ["Theater", "Musical"]
   },
   {
-    "title": "SF Symphony Sound Box",
+    "title": "LA Dance Company",
     "location": "San Francisco, CA",
     "price": "$50",
     "dateRange": "5/04/2021 - 10/10/2021",
@@ -27,7 +27,7 @@
     "tags": ["Classical", "Music"]
   },
   {
-    "title": "Moulin Rouge",
+    "title": "Red Rocks Ampitheatre",
     "location": "New York City, NY",
     "price": "$50",
     "dateRange": "5/04/2021 - 10/10/2021",
