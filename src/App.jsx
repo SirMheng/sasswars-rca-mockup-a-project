@@ -1,11 +1,10 @@
 import "./App.css";
+import PerformanceSpotlight from "./components/performance-spotlights/PerformanceSpotlight";
 
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        THIS IS THE PERFOMANCE SPOTLIGHT
-      </h1>
+      <PerformanceSpotlight />
     </>
   );
 }

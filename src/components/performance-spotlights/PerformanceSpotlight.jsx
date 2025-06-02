@@ -2,8 +2,9 @@ import React from "react";
 
 const PerformanceSpotlight = () => {
   return (
-    <div>
-      <FaStar /> PerformanceSpotlight
+    <div className="h-[652px]">
+      <SpotlightNav />
+      <PerformanceCard />
     </div>
   );
 };
