@@ -4,7 +4,7 @@ import LatestNewsCard from "./LatestNewsCard";
 import { getBackStage } from "../../services/events.service";
 import EventsCardLoader from "../Reusable-Components/EventsCardLoader";
 
-export default function LatestNewsSection() {
+export default function LatestNewsComponent() {
   const [backStage, setbackStage] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -15,7 +15,7 @@ export default function LatestNewsSection() {
     });
   }, []);
   return (
-    <div className="h-[981px] bg-black flex flex-col justify-center px-[120px]">
+    <div className="relative h-[981px] bg-black flex flex-col justify-center px-[120px]">
       {loading
         ? Array.from({ length: 1 }).map((_, idx) => (
             <EventsCardLoader key={idx} idx={idx} />
