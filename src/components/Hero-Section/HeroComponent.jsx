@@ -3,6 +3,7 @@ import heroImage from "../../assets/images/hero-image.jpg";
 import HeaderNav from "./HeaderNav";
 import HeroContent from "./HeroContent";
 import HeroCityGuides from "./HeroCityGuides";
+// import HeroCityGuides from "../Test/TestCityGuides";
 
 export default function HeroComponent() {
   return (
