@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../../assets/images/hero-image.jpg";
-import HeaderNav from "./HeroHeaderNav";
+import HeaderNav from "./HeaderNav";
 
 export default function HeroComponent() {
   return (
