@@ -5,7 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function HeaderNav() {
   return (
-    <div className="fixed top-0 left-0  px-[32px] z-1 mt-[24px] h-[88px] w-full flex justify-between items-center">
+    <div className="fixed top-0 left-0  px-[32px] z-20 mt-[24px] h-[88px] w-full flex justify-between items-center">
       <img src={rcaLogo} alt="rca logo" class="h-[48px] w-[64px]"></img>
       <div class=" flex items-center ">
         <p class="font-semibold text-base">For professionals</p>

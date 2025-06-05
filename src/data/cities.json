@@ -1,0 +1,26 @@
+[
+  {
+    "title": "San Francisco",
+    "imageUrl": "src/assets/city-image/sanFrancisco.png"
+  },
+  {
+    "title": "New York City",
+    "imageUrl": "src/assets/city-image/newYorkCity.png"
+  },
+  {
+    "title": "Miami",
+    "imageUrl": "src/assets/city-image/miami.png"
+  },
+  {
+    "title": "Los Angeles",
+    "imageUrl": "src/assets/city-image/losAngeles.png"
+  },
+  {
+    "title": "Chicago",
+    "imageUrl": "src/assets/city-image/chicago.png"
+  },
+  {
+    "title": "Seattle",
+    "imageUrl": "src/assets/city-image/Seattle.png"
+  }
+]
