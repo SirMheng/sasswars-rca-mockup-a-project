@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Phantom of The Opera",
+    "imageUrl": "src/assets/images/phantomOpera.png"
+  },
+  {
+    "title": "Volta (Cirque De Soleil)",
+    "imageUrl": "src/assets/images/volta.png"
+  },
+  {
+    "title": "SF Opera Feature",
+    "imageUrl": "src/assets/images/sfOpera.png"
+  },
+  {
+    "title": "Head Over Heels",
+    "imageUrl": "src/assets/images/headOverHeels.png"
+  }
+]
