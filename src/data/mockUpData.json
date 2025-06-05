@@ -1,4 +1,11 @@
 {
+  "heroCard": [
+    {
+      "title": "Get your brand featured on RCA today!",
+      "imageUrl": "src/assets/images/hero-card-image.jpg",
+      "description": "Looking for more exposure? Need help selling tickets? We got your back."
+    }
+  ],
   "cities": [
     {
       "title": "San Francisco",

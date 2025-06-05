@@ -2,6 +2,14 @@ import mockUpData from "../data/mockUpData.json";
 
 const renderTime = 2000;
 
+export const getHeroCard = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(mockUpData.heroCard);
+    }, renderTime);
+  });
+};
+
 export const getCities = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
