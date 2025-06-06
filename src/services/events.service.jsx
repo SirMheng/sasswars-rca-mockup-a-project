@@ -44,7 +44,7 @@ export const getAllMockUpData = () => {
         heroText: mockUpData.heroText,
         heroCard: mockUpData.heroCard,
         cities: mockUpData.cities,
-        // <--- Add Here ----> popular events here.
+        popularEvents: mockUpData.popularEvents,
         performanceSpotlight: mockUpData.performanceSpotlight,
         artOrganizations: mockUpData.artOrganizations,
         latestNews: mockUpData.latestNews,

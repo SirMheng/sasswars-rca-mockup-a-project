@@ -39,6 +39,45 @@
     }
   ],
 
+  "popularEvents": [
+    {
+      "title": "The Book of Mormon",
+      "Location": "San Francisco, CA",
+      "price": "$50",
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/src/assets/images/book-of-mormon.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Musical"]
+    },
+    {
+      "title": "Hamilton",
+      "Location": "New York City, NY",
+      "price": "$50",
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/src/assets/images/hamilton.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Musical"]
+    },
+    {
+      "title": "SF Symphony Sound Box",
+      "Location": "San Francisco, CA",
+      "price": "$50",
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/src/assets/images/sf-soundbox.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Musical"]
+    },
+    {
+      "title": "Moulin Rouge",
+      "Location": "New York City, NY",
+      "price": "$50",
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/src/assets/images/moulin-rouge.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Musical"]
+    }
+  ],
+
   "performanceSpotlight": [
     {
       "title": "Phantom of The Opera",
