@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import LatestNewsArticle from "./LatestNewsArticle";
-import { getlatestNews } from "../../services/events.service";
+import { getAllMockUpData } from "../../services/events.service";
 import CardsLoader from "../Reusable-Components/CardsLoader";
 
 export default function LatestNewsCardList() {
@@ -8,8 +8,8 @@ export default function LatestNewsCardList() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getlatestNews().then((data) => {
-      setNews(data);
+    getAllMockUpData().then((data) => {
+      setNews(data.latestNews);
       setLoading(false);
     });
   }, []);

@@ -5,16 +5,16 @@ import { FiFacebook, FiTwitter, FiYoutube } from "react-icons/fi";
 
 const FooterContents = () => {
   return (
-    <div className="mt-[48.5px]">
-      <div className="absolute text-white flex flex-col gap-4">
+    <div className="relative  mt-[48px] h-[246px] w-[1200px] mx-auto ">
+      <div className="absolute text-white flex flex-col gap-4 ">
         <img
-          className="ml-[120px] w-[64px] h-[48px]"
+          className="w-[64px] h-[48px]"
           src={RedCurtainLogo}
           alt="red-curtain-logo.png"
         />
 
         <div className="font-sans font-normal text-base leading-none tracking-normal">
-          <p className="ml-[120px] mt-[140px] ">© Red Curtain Addict 2021</p>
+          <p className="mt-[140px] ">© Red Curtain Addict 2021</p>
         </div>
       </div>
 

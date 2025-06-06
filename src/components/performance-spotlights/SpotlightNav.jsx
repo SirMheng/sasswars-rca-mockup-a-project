@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const SpotlightNav = () => {
   return (
-    <div className="absolute px-[120px] h-[88px] mt-[80px] w-full flex justify-between items-center z-20">
+    <div className="relative w-[1200px] h-[33px] mb-[33px] mx-auto">
       <h1 className="font-bold text-[24px] leading-[24px] tracking-[0px] font-open-sans text-white ">
         Performance Spotlights
       </h1>

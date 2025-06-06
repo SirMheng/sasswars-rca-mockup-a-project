@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import EventsCard from "../Reusable-Components/EventsCard";
 import EventCardLoader from "../Reusable-Components/EventsCardLoader";
-import { getWinTicketsCard } from "../../services/events.service";
+import { getAllMockUpData } from "../../services/events.service";
 
 export default function WinTicketsCard() {
-  const [wtCard, setWtCard] = useState([]);
+  const [wtCard, setWtCard] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getWinTicketsCard().then((data) => {
-      setWtCard(data);
+    getAllMockUpData().then((data) => {
+      setWtCard(data.winTicketsCard[0]);
       setLoading(false);
     });
   }, []);
@@ -18,15 +18,12 @@ export default function WinTicketsCard() {
       {loading ? (
         <EventCardLoader />
       ) : (
-        wtCard.map((wtc, index) => (
-          <EventsCard
-            key={index}
-            title={wtc.title}
-            imageUrl={wtc.imageUrl}
-            description={wtc.description}
-            btnText={"join today"}
-          />
-        ))
+        <EventsCard
+          title={wtCard.title}
+          imageUrl={wtCard.imageUrl}
+          description={wtCard.description}
+          btnText={"Join today"}
+        />
       )}
     </div>
   );

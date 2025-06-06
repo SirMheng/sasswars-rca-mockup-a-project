@@ -14,5 +14,9 @@
   {
     "title": "Head Over Heels",
     "imageUrl": "src/assets/images/headOverHeels.png"
+  },
+  {
+    "title": "Virtual Reality",
+    "imageUrl": "src/assets/images/virtualReality.png"
   }
 ]

@@ -1,4 +1,10 @@
 {
+  "heroText": [
+    {
+      "title": "Your source for the arts.",
+      "description": " Search events,concerts,artists and much more."
+    }
+  ],
   "heroCard": [
     {
       "title": "Get your brand featured on RCA today!",
@@ -30,6 +36,61 @@
     {
       "title": "Seattle",
       "imageUrl": "src/assets/city-image/Seattle.png"
+    }
+  ],
+
+  "performanceSpotlight": [
+    {
+      "title": "Phantom of The Opera",
+      "imageUrl": "src/assets/images/phantomOpera.png"
+    },
+    {
+      "title": "Volta (Cirque De Soleil)",
+      "imageUrl": "src/assets/images/volta.png"
+    },
+    {
+      "title": "SF Opera Feature",
+      "imageUrl": "src/assets/images/sfOpera.png"
+    },
+    {
+      "title": "Head Over Heels",
+      "imageUrl": "src/assets/images/headOverHeels.png"
+    },
+    {
+      "title": "Virtual Reality",
+      "imageUrl": "src/assets/images/virtualReality.png"
+    }
+  ],
+
+  "artOrganizations": [
+    {
+      "title": "San Francisco Symphony",
+      "location": "San Francisco, CA",
+      "imageUrl": "/src/assets/images/artOrg1.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Musical"]
+    },
+    {
+      "title": "NYC Ballet",
+      "location": "New York City, NY",
+      "imageUrl": "/src/assets/images/artOrg2.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Theater", "Dance"]
+    },
+    {
+      "title": "LA Dance Company",
+      "location": "San Francisco, CA",
+      "imageUrl": "/src/assets/images/artOrg3.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Music", "Dance"]
+    },
+    {
+      "title": "Red Rocks Ampitheatre",
+      "location": "Denver, Colorado",
+      "dateRange": "5/04/2021 - 10/10/2021",
+      "imageUrl": "/src/assets/images/artOrg4.png",
+      "description": "First staged in 2011, the play is a satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day ...",
+      "tags": ["Concerts", "Music"]
     }
   ],
 
