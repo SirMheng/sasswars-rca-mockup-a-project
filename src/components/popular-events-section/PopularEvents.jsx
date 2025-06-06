@@ -1,7 +1,7 @@
 import React from "react";
 
 const PopularEvents = () => {
-  return <div>PopularEvents</div>;
+  return <div>Test</div>;
 };
 
 export default PopularEvents;
